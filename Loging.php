@@ -59,7 +59,7 @@ session_start();
 					<input type="phone" class="input-box" placeholder="Phone No" required>
 					<input type="text" class="input-box" placeholder="Address" required>
 					<input type="password" class="input-box" name= "password" placeholder="Create Password" required>
-					<input type="submit" class="login" value="Submit">
+					<input type="submit" class="login " value="Submit">
 				</form>
 				<button type="button" class="btn" onclick="openLogin()">I've an account</button>
 				</div>
@@ -71,7 +71,7 @@ session_start();
 		var card = document.getElementById("card");
 
 		function openRegister(){
-			card.style.transform = "rotateY(-180deg)";
+			card.style.transform = "rotateY(-360deg)";
 		}
 		function openLogin(){
 			card.style.transform = "rotateY(0deg)";

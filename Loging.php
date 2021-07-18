@@ -51,7 +51,7 @@ session_start();
 				<a href="">Forgot Password</a>
 				</div>
 
-				<div class="card-back" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))">
+				<div class="card-back" style="background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6))">
 					<h2>REGISTER</h2>
 				<form>
 					<input type="text" class="input-box" name= "user_name" placeholder="Name" required>
@@ -59,7 +59,7 @@ session_start();
 					<input type="phone" class="input-box" placeholder="Phone No" required>
 					<input type="text" class="input-box" placeholder="Address" required>
 					<input type="password" class="input-box" name= "password" placeholder="Create Password" required>
-					<input type="submit" class="login" value="Submit">
+					<input type="submit" class="login " value="Submit">
 				</form>
 				<button type="button" class="btn" onclick="openLogin()">I've an account</button>
 				</div>
@@ -71,7 +71,7 @@ session_start();
 		var card = document.getElementById("card");
 
 		function openRegister(){
-			card.style.transform = "rotateY(-180deg)";
+			card.style.transform = "rotateY(-360deg)";
 		}
 		function openLogin(){
 			card.style.transform = "rotateY(0deg)";

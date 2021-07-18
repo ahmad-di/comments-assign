@@ -51,7 +51,7 @@ session_start();
 				<a href="">Forgot Password</a>
 				</div>
 
-				<div class="card-back" style="background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4))">
+				<div class="card-back" style="background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7))">
 					<h2>REGISTER</h2>
 				<form>
 					<input type="text" class="input-box" name= "user_name" placeholder="Name" required>

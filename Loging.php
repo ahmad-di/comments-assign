@@ -31,7 +31,7 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Loging</title>
+	<title>Log in</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
